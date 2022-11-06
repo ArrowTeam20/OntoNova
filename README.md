@@ -1,5 +1,19 @@
 # ontonova
+In a world where humans are facing a lot of difficulties, efficient solutions to solve them are needed. That's what we call "INVENTIONS". However, innovators are struggling to implement their ideas. That's where "OntoNova" came to help inventors evaluating their ideas and take them from the idea to the project stage. 
 
+Our idea is to make it easy for inventors evaluating their ideas with the help of the right experts in all the domains that we can imagine. For that, using NLP(is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data. -wikipedia-), the ideas are treated automaticly to extract key words that help us to detect the domains or expertises needed, Our main contribution appears in creating a knowledge graph or what we call ontologies (ontologies are a representation of a real world using concepts,relations ... etc it modelise a domain of knowledge). Using this ontology, we can link between keywords extracted from inventor's description and a domain of expertise in order to mutch them with experts profiles.
+
+Furthermore,OntoNova uses two different ways to collect experts profiles: a simple registration of the expert himself via a form and using web scrabing(it's a form of data mining that uses scripts or programs to collect information from across the Internet) to get the experts from LinkedIn plateform so that we can provide more choices to the inventor to find the right experts and of course extends our experts profile database. 
+
+Once the inventor chooses the BDO or the experts, a notification will be sent with a short description of the idea. The expert will be able to refuse collaboration, schedule meeting for more information or just accept it. In this case, he can schedule a meeting, elaborate roadmap for the project with milestones, create a product backlog and all what an agile project needs. 
+
+The BDO selected also can refuse or accept the projects, after that, it can assign it's own experts to collaborate with the inventor.
+
+All in all, we propose an web application using 
+1-python for data extraction, data preprossecing (NLP) and ontology generation
+2-Neo4j database graphe for loading ontology
+3-nuxtjs to build front application
+4-a relational database it could be : oracle,sql server or any other database to store website information such as : inventors, experts profiles etc.
 
 
 
