@@ -21,11 +21,11 @@
         </v-card-subtitle>
 
         <v-card-actions class="d-flex justify-center">
-          <v-btn color="primary" width="200" x-large rounded nuxt to="/inspire">
+          <v-btn color="primary" width="200" x-large rounded nuxt to="/experts">
             Expert
           </v-btn>
           <span class="mx-3">OR</span>
-          <v-btn color="primary" width="200" x-large rounded nuxt to="/inspire">
+          <v-btn color="primary" width="200" x-large rounded nuxt to="/bdos">
             BDO
           </v-btn>
         </v-card-actions>
